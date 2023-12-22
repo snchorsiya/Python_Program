@@ -32,7 +32,7 @@ for country in country_list:
 
 print(driver.find_element(By.ID, "autosuggest").get_attribute("value"))
 
-radio_button=driver.find_elements(By.XPATH, "//input[@type='radio']")
+radio_button = driver.find_elements(By.XPATH, "//input[@type='radio']")
 print("Number of radio button:", len(radio_button))
 
 for radio_btn in radio_button:
